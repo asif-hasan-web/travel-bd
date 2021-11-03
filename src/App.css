@@ -1,0 +1,162 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+span.badge.bg-primary{
+  position: relative;
+  font-size: 17px!important;
+  padding: 0!important;
+  top: -6px!important;
+  background-color: orange!important;
+  width: 15px!important;
+  display: inline-block!important;
+  border-radius: 50%!important;
+}
+a.dropdown-toggle.nav-link {
+  padding: 0;
+}
+.bg-img{
+  background-image: url('https://i.ibb.co/Y2ghkRw/Pexels-eberhard-grossgasteiger-2098428.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
+}
+.hero-btn{
+  margin: 17px 2px;
+  padding: 11px 49px;
+  text-transform: uppercase;
+}
+button.btn.btn-outline-warning.hero-btn {
+  padding: 10px 50px;
+}
+
+.hero-text {
+  margin: 120px 0;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.2px;
+}
+.hero-text h1{
+  font-size: 50px;
+}
+.hero-text p {
+  color: #c5c5c5;
+  font-size: 12px;
+  text-transform: capitalize;
+}
+.abouttext{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  /* margin: 0; */
+  /* align-items: center; */
+  top: 18px;
+    margin-right: 15px;
+  position: relative;
+}
+.adventure-tittle {
+  text-align: center;
+  margin: 22px auto;
+  padding-top: 65px;
+  width: 55%;
+}
+.adventure-tittle h6 {
+  color: red;
+  text-transform: uppercase;
+}
+
+.adventure-tittle h1 {
+  text-transform: uppercase;
+  padding: 11px 0;
+}
+
+.bg-adventure h4{
+  text-transform: uppercase;
+  padding: 8px 0;
+}
+.bg-adventure h4:hover {
+  color: red;
+  cursor: pointer;
+}
+.adventure-tittle h6 {
+  color: red;
+  text-transform: uppercase;
+}
+.photo-bg{
+  background-image:url("https://i.ibb.co/CmZbxNF/gray-abstract-wireframe-technology-background-53876-101941.jpg") ;
+  
+  background-position: center center;
+  background-size: cover;
+
+}
+.tour-type-bg{
+  padding: 30px 0;
+  background-image: url("https://i.ibb.co/xFtbGvn/Full-shot-people-with-guitar-van.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+.bg-adventure:hover{
+
+  background:#f2f2f275;
+}
+.bg-adventure{
+  height: 148px;
+  border: 5px solid #3333;
+  border-radius: 24px;
+}
+.img-site {
+  display: flex;
+  width: 90%;
+}
+.img-site h1{
+  margin-bottom: 0;
+}
+/* [1] gellary hover */
+.img-hover-zoom {
+  height: 300px; 
+  overflow: hidden; 
+}
+
+.img-hover-zoom img {
+  transition: transform 1s ease;
+}
+
+ 
+.img-hover-zoom:hover img {
+  transform: scale(1.5);
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
