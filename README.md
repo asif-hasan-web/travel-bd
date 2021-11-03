@@ -1,8 +1,8 @@
 Live site Link: https://travel-bd-25ba1.web.app/
 
-this website make a  bangladesh based travel agency website .
+this website make a  bangladesh based travel agency .
  
- webstie NAME : TRAVEL BD
+ Website NAME : TRAVEL BD
  
  here is some discription for Travel bd sites:-
  *  this website mainly focusd todays touriest demanded place
